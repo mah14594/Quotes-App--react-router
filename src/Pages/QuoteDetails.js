@@ -8,6 +8,7 @@ import LoadingSpinner from "../components/UI/LoadingSpinner";
 export default function QuoteComments() {
   const params = useParams();
   const Id = params.QouteID;
+  console.log(Id);
   const {
     sendRequest,
     status,

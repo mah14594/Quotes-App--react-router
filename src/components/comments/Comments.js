@@ -12,7 +12,7 @@ const Comments = () => {
   const [isAddingComment, setIsAddingComment] = useState(false);
   const params = useParams();
 
-  const { quoteId } = params;
+  const quoteId = params.QouteID;
 
   const { sendRequest, status, data: loadedComments } = useHttp(getAllComments);
 
