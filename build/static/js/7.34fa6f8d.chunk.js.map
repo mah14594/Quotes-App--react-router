@@ -1,0 +1,1 @@
+{"version":3,"sources":["Pages/NotFound.js"],"names":["NotFound","className"],"mappings":"mIAAA,+DAEe,SAASA,IACtB,OAAO,qBAAKC,UAAU,WAAf","file":"static/js/7.34fa6f8d.chunk.js","sourcesContent":["import React from \"react\";\r\n\r\nexport default function NotFound() {\r\n  return <div className=\"centered\">Page Not Found Error404!</div>;\r\n}\r\n"],"sourceRoot":""}
